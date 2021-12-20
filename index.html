@@ -17,10 +17,12 @@
 
   <body>
     <!-- верхняя строка -->
-    <header>
+    <header class="header-border">
       <div class="container">
         <nav>
-          <a href="" lang="en" class="logo link">Web<span class="logo-accent">Studio</span> </a>
+          <a href="" lang="en" class="header-logo link"
+            >Web<span class="logo-accent">Studio</span>
+          </a>
           <ul class="list">
             <li><a href="/" class="link site-nav-text current">Студия</a></li>
             <li><a href="./portfolio.html" class="link site-nav-text">Портфолио</a></li>
@@ -52,27 +54,27 @@
       <!-- section advantages -->
       <section class="advantages section">
         <div class="container">
-          <h2 hidden>Наша концепция</h2>
+          <h2 class="visually-hidden">Наша концепция</h2>
           <ul class="list">
-            <li>
+            <li class="advantages-item">
               <h3 class="advantages-title">Внимание к деталям</h3>
               <p class="advantages-text">
                 Идейные соображения, а также начало повседневной работы по формированию позиции.
               </p>
             </li>
-            <li>
+            <li class="advantages-item">
               <h3 class="advantages-title">Пунктуальность</h3>
               <p class="advantages-text">
                 Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
               </p>
             </li>
-            <li>
+            <li class="advantages-item">
               <h3 class="advantages-title">Планирование</h3>
               <p class="advantages-text">
                 Равным образом консультация с широким активом в значительной степени обуславливает.
               </p>
             </li>
-            <li>
+            <li class="advantages-item">
               <h3 class="advantages-title">Современные технологии</h3>
               <p class="advantages-text">
                 Значимость этих проблем настолько очевидна, что реализация плановых заданий.
@@ -104,41 +106,35 @@
       <section class="team section">
         <div class="container">
           <h2 class="title">Наша команда</h2>
-          <ul class="list">
-            <li>
-              <div class="members">
-                <img src="./images/img1.jpg" alt="Первый член команды" width="270" />
-                <div class="team-members">
-                  <h3 class="team-title">Игорь Демьяненко</h3>
-                  <p class="team-role" lang="en">Product Designer</p>
-                </div>
+          <ul class="team-items list">
+            <li class="team-item">
+              <img src="./images/img1.jpg" alt="Первый член команды" width="270" />
+              <div class="team-item-text">
+                <h3 class="team-item-title">Игорь Демьяненко</h3>
+                <p class="team-item-role" lang="en">Product Designer</p>
               </div>
             </li>
-            <li>
-              <div class="members">
-                <img src="./images/img2.jpg" alt="Второй член команды" width="270" />
-                <div class="team-members">
-                  <h3 class="team-title">Ольга Репина</h3>
-                  <p class="team-role" lang="en">Frontend Developer</p>
-                </div>
+
+            <li class="team-item">
+              <img src="./images/img2.jpg" alt="Второй член команды" width="270" />
+              <div class="team-item-text">
+                <h3 class="team-item-title">Ольга Репина</h3>
+                <p class="team-item-role" lang="en">Frontend Developer</p>
               </div>
             </li>
-            <li>
-              <div class="members">
-                <img src="./images/img3.jpg" alt="Третий член команды" width="270" />
-                <div class="team-members">
-                  <h3 class="team-title">Николай Тарасов</h3>
-                  <p class="team-role" lang="en">Marketing</p>
-                </div>
+
+            <li class="team-item">
+              <img src="./images/img3.jpg" alt="Третий член команды" width="270" />
+              <div class="team-item-text">
+                <h3 class="team-item-title">Николай Тарасов</h3>
+                <p class="team-item-role" lang="en">Marketing</p>
               </div>
             </li>
-            <li>
-              <div class="members">
-                <img src="./images/img4.jpg" alt="Четвертый член команды" width="270" />
-                <div class="team-members">
-                  <h3 class="team-title">Михаил Ермаков</h3>
-                  <p class="team-role" lang="en">UI Designer</p>
-                </div>
+            <li class="team-item">
+              <img src="./images/img4.jpg" alt="Четвертый член команды" width="270" />
+              <div class="team-item-text">
+                <h3 class="team-item-title">Михаил Ермаков</h3>
+                <p class="team-item-role" lang="en">UI Designer</p>
               </div>
             </li>
           </ul>
@@ -149,12 +145,12 @@
     <!-- section footer -->
     <footer class="footer">
       <div class="container">
-        <a href="" lang="en" class="logo link"
+        <a href="" lang="en" class="footer-logo link"
           >Web<span class="logo-accent-footer">Studio</span>
         </a>
         <address>
           <ul class="list">
-            <li>
+            <li class="footer-map footer-adress">
               <a
                 href="https://goo.gl/maps/W122nZzWchehHcVS9"
                 target="_blank"
@@ -163,10 +159,12 @@
                 >г. Киев, пр-т Леси Украинки, 26</a
               >
             </li>
-            <li>
+            <li class="footer-map">
               <a href="mailto:info@devstudio.com" class="footer-contact link">info@devstudio.com</a>
             </li>
-            <li><a href="tel:+380961111111" class="footer-contact link">+38 096 111 11 11</a></li>
+            <li class="footer-map">
+              <a href="tel:+380961111111" class="footer-contact link">+38 096 111 11 11</a>
+            </li>
           </ul>
         </address>
       </div>
