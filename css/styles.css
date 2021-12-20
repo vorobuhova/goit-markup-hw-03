@@ -164,6 +164,7 @@ ul {
 }
 
 /* advantages */
+
 .advantages-title {
   margin-bottom: 10px;
 
@@ -180,11 +181,16 @@ ul {
 }
 
 /* wedo */
+.wedo {
+  padding-top: 0;
+}
+
 .wedo .title {
   padding-bottom: 50px;
 }
 
 /* team */
+
 .team .container {
   background-color: var(--team-bg-color);
 }
