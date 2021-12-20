@@ -17,7 +17,43 @@ body {
   background-color: var(--primary-white-color);
 }
 
-/* All site */
+/* Утиилиты */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/* Section */
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
+  border-color: #ccc;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  outline: 2px solid tomato;
+}
 
 .title {
   font-weight: 700;
@@ -34,7 +70,7 @@ body {
   list-style: none;
 }
 
-/* cстилизация логотипа */
+/* стилизация навигации */
 .logo {
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
@@ -52,7 +88,6 @@ body {
   color: var(--accent-color);
 }
 
-/* стилизация навигации */
 .site-nav-text {
   font-weight: 500;
   font-size: 14px;
@@ -67,6 +102,8 @@ body {
 }
 
 .site-contact {
+  display: inline-block;
+
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
@@ -81,11 +118,15 @@ body {
 }
 
 /* стилизация Hero */
-.hero-bg-temporary {
+.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: var(--temporary-bg-color);
 }
 
 .hero-title {
+  margin-bottom: 30px;
+
   color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
@@ -101,6 +142,10 @@ body {
 }
 
 .hero-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
   font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -120,6 +165,8 @@ body {
 
 /* advantages */
 .advantages-title {
+  margin-bottom: 10px;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -132,12 +179,33 @@ body {
   color: var(--primary-text-color);
 }
 
+/* wedo */
+.wedo .title {
+  padding-bottom: 50px;
+}
+
 /* team */
-.team {
+.team .container {
   background-color: var(--team-bg-color);
 }
 
+.team .title {
+  padding-bottom: 50px;
+}
+
+.members {
+  width: 270px;
+  height: 368px;
+}
+
+.team-members {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .team-title {
+  padding-bottom: 10px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
