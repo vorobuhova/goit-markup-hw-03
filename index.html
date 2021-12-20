@@ -18,23 +18,27 @@
   <body>
     <!-- верхняя строка -->
     <header class="header-border">
-      <div class="container">
-        <nav>
+      <div class="flex-nav container">
+        <nav class="flex-nav">
           <a href="" lang="en" class="header-logo link"
             >Web<span class="logo-accent">Studio</span>
           </a>
-          <ul class="list">
-            <li><a href="/" class="link site-nav-text current">Студия</a></li>
-            <li><a href="./portfolio.html" class="link site-nav-text">Портфолио</a></li>
-            <li><a href="" class="link site-nav-text">Контакты</a></li>
+          <ul class="flex-nav-menu list">
+            <li class="nav-menu-item"><a href="/" class="link site-nav-text current">Студия</a></li>
+            <li class="nav-menu-item">
+              <a href="./portfolio.html" class="link site-nav-text">Портфолио</a>
+            </li>
+            <li class="nav-menu-item"><a href="" class="link site-nav-text">Контакты</a></li>
           </ul>
         </nav>
 
-        <ul class="list">
-          <li>
+        <ul class="flex-nav-contact list">
+          <li class="nav-contact-item">
             <a href="mailto:info@devstudio.com" class="link site-contact">info@devstudio.com</a>
           </li>
-          <li><a href="tel:+380961111111" class="link site-contact">+38 096 111 11 11</a></li>
+          <li class="nav-contact-item">
+            <a href="tel:+380961111111" class="link site-contact">+38 096 111 11 11</a>
+          </li>
         </ul>
       </div>
     </header>

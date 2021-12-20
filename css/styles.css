@@ -88,6 +88,28 @@ img {
   border-bottom: 1px solid #ececec;
 }
 
+.flex-nav {
+  display: flex;
+  align-items: center;
+}
+.flex-nav-menu {
+  display: flex;
+  margin-left: 93px;
+}
+
+.flex-nav-contact {
+  display: flex;
+  margin-left: auto;
+}
+
+.nav-menu-item:not(:first-child) {
+  margin-left: 50px;
+}
+
+.nav-contact-item:not(:first-child) {
+  margin-left: 50px;
+}
+
 .header-logo {
   padding-top: 24px;
   padding-bottom: 25px;
