@@ -257,30 +257,32 @@ img {
 }
 
 /* footer */
-.footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
 
-  background-color: var(--footer-bg-color);
-} */
+/* footer */
 
- .footer-logo {
+.footer-logo {
   display: block;
- margin-bottom: 20px;
+  margin-bottom: 20px;
 
-  font-family: 'Raleway', sans-serif;
+  font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
   line-height: 1.19;
   color: var(--accent-color);
+}
 
 .logo-accent-footer {
   color: var(--primary-white-color);
-} 
+}
 
-.logo-accent-footer:hover,
-.logo-accent-footer:focus {
+.logo-accent-footer:hover {
   color: var(--accent-color);
+}
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--footer-bg-color);
 }
 
 .footer-map {
@@ -295,7 +297,7 @@ img {
   line-height: 1.71;
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
-} 
+}
 
 .footer-map:hover,
 .footer-map:focus,
