@@ -208,10 +208,17 @@ img {
 }
 
 /* advantages */
+.advantages-list {
+  display: flex;
+}
+
 .advantages-item {
   width: 270px;
 }
 
+.advantages-item:not(:last-child) {
+  margin-right: 30px;
+}
 .advantages-title {
   margin-bottom: 10px;
 
@@ -232,6 +239,14 @@ img {
   padding-top: 0;
 }
 
+.wedo-list {
+  display: flex;
+}
+
+.wedo-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .wedo .title {
   padding-bottom: 50px;
 }
@@ -246,7 +261,12 @@ img {
   padding-bottom: 50px;
 }
 
+.team-items {
+  display: flex;
+}
+
 .team-item {
+  width: 270px;
   height: 368px;
 
   background-color: var(--primary-white-color);
@@ -255,12 +275,17 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
+.team-item:not(:last-child) {
+  margin-right: 30px;
+}
 .team-item-text {
   padding-top: 30px;
   padding-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.team-item--title {
+.team-item-title {
   margin-top: 0;
   margin-bottom: 10px;
 
@@ -270,7 +295,7 @@ img {
   text-align: center;
 }
 
-.team-item--role {
+.team-item-role {
   margin: 0;
   font-size: 16px;
   line-height: 1.19;
