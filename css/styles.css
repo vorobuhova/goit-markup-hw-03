@@ -251,7 +251,7 @@ img {
 
 /* team */
 
-.team .container {
+.team {
   background-color: var(--team-bg-color);
 }
 
@@ -327,6 +327,7 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--footer-bg-color);
+  height: 252px;
 }
 
 .footer-map {
