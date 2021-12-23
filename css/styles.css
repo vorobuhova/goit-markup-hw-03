@@ -135,6 +135,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
+  display: block;
 }
 
 .site-nav-text:hover,
@@ -419,10 +420,13 @@ img {
 .portfolio-examples {
   display: flex;
   flex-wrap: wrap;
+
+  margin-right: calc(-1 * var(--card-set-gap));
+  margin-bottom: calc(-1 * var(--card-set-gap));
 }
 
 .portfolio-link {
-  flex-basis: calc(100% / 3 - var(--card-set-gap));
+  /* flex-basis: calc(100% / 3 - var(--card-set-gap)); */
   margin-right: var(--card-set-gap);
   margin-bottom: var(--card-set-gap);
 }
